@@ -36,6 +36,7 @@ def decoding(txt):
 u = decoding(coding(text))
 
 print(f"Исходный текст: {text}")
+
 print(f"Результат rle кодирования = {c}")
 
 with open ("Task4coddoc.txt", "w", encoding='utf-8') as txt_1:
